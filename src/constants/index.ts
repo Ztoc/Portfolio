@@ -5,7 +5,7 @@ import type {
   TExperience,
   TTestimonial,
   TProject,
-} from "../types";
+} from '../types';
 
 import {
   mobile,
@@ -22,158 +22,186 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets";
+  dgn,
+  arcanys,
+  magellan,
+  firebase,
+  graphql,
+  java,
+  knex,
+  less,
+  maven,
+  nest,
+  next,
+  postgresql,
+  prisma,
+  spring,
+  digitalWallet,
+  adalab,
+  gtx,
+} from '../assets';
 
 export const navLinks: TNavLink[] = [
   {
-    id: "about",
-    title: "About",
+    id: 'about',
+    title: 'About',
   },
   {
-    id: "work",
-    title: "Work",
+    id: 'work',
+    title: 'Work',
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: 'contact',
+    title: 'Contact',
   },
 ];
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: 'Frontend Developer',
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: 'Backend Developer',
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: 'Problem Solver',
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: 'Continuous Learner',
     icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
+    name: 'HTML 5',
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: 'CSS 3',
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: 'Less',
+    icon: less,
+  },
+  {
+    name: 'JavaScript',
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: 'TypeScript',
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: 'React JS',
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: 'Redux Toolkit',
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: 'Next JS',
+    icon: next,
   },
   {
-    name: "Node JS",
+    name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: 'Nest JS',
+    icon: nest,
+  },
+  {
+    name: 'Knex',
+    icon: knex,
+  },
+  {
+    name: 'Prisma',
+    icon: prisma,
+  },
+  {
+    name: 'Java',
+    icon: java,
+  },
+  {
+    name: 'Maven',
+    icon: maven,
+  },
+  {
+    name: 'Spring',
+    icon: spring,
+  },
+  {
+    name: 'Tailwind CSS',
+    icon: tailwind,
+  },
+  {
+    name: 'MongoDB',
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: 'Postgresql',
+    icon: postgresql,
   },
   {
-    name: "git",
+    name: 'Firebase',
+    icon: firebase,
+  },
+  {
+    name: 'GraphQL',
+    icon: graphql,
+  },
+  {
+    name: 'git',
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: 'Full Stack Developer',
+    companyName: 'Arcanys',
+    icon: arcanys,
+    iconBg: '#383E56',
+    date: 'Apr 2022 - Dec 2023',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Collaborated effectively with cross-functional teams to ensure seamless integration anddelivery of projects.',
+      'Conducted thorough code reviews, identifying and resolving bugs to improve application functionality and user experience.',
+      'Implemented best practices and coding standards to ensure high-quality code and maintainable applications.',
+      'Actively participated in agile development processes, contributing to efficient project management and timely delivery.',
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: 'Full Stack Developer',
+    companyName: 'DGN Technologies',
+    icon: dgn,
+    iconBg: '#E6DEDD',
+    date: 'May 2019 - Feb 2022',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Contributed to designing and developing projects and workflows',
+      'Provided technical support to ensure smooth operation and functionality of web applications.',
+      'Built reusable components to enhance development efficiency and maintainability.',
+      'Improved the performance of web applications through optimization techniques and code refactoring.',
+      'Demonstrated strong problem-solving skills in troubleshooting and resolving technical issues.',
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: 'Frontend Developer',
+    companyName: 'Magellan Solutions Outsourcing',
+    icon: magellan,
+    iconBg: '#383E56',
+    date: 'Oct 2016 - Apr 2019',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Collaborated with a team to develop frontend components for various projects.',
+      'Utilized HTML, CSS, JavaScript, React, Vue, Next, Redux, and CSS frameworks to create responsive and user-friendly interfaces.',
+      'Demonstrated proficiency in frontend development, ensuring high-quality code and adherence to best practices.',
+      'Actively participated in code reviews and provided constructive feedback to improve overall code quality.',
+      'Stayed updated with the latest frontend technologies and trends to continuously enhance development skills.',
     ],
   },
 ];
@@ -181,93 +209,102 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+    name: 'Sara Lee',
+    designation: 'CFO',
+    company: 'Acme Co',
+    image: 'https://randomuser.me/api/portraits/women/4.jpg',
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: 'Chris Brown',
+    designation: 'COO',
+    company: 'DEF Corp',
+    image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: 'Lisa Wang',
+    designation: 'CTO',
+    company: '456 Enterprises',
+    image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: 'Adalab',
+    description: 'Web-based platform that allows users to learn programming',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient',
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: 'express',
+        color: 'purple-text-gradient',
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: adalab,
+    sourceCodeLink: '#',
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: 'Digital Wallet',
+    description: 'Web application where users can manage their wallets',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'nextjs',
+        color: 'blue-text-gradient',
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: 'tailwindcss',
+        color: 'green-text-gradient',
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: 'web3',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'styled-components',
+        color: 'purple-text-gradient',
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: digitalWallet,
+    sourceCodeLink: '',
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: 'GTX',
+    description: 'Web application for trading, make transactions',
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: 'nextjs',
+        color: 'blue-text-gradient',
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: 'tailwindcss',
+        color: 'green-text-gradient',
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: 'web3',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'trading-view',
+        color: 'purple-text-gradient',
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: gtx,
+    sourceCodeLink: '',
   },
 ];
 
