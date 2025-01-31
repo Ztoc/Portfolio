@@ -40,7 +40,7 @@ import datadog from './tech/datadog.svg';
 
 import arcanys from './company/arcanys.png';
 import das from './company/das.png';
-import pineSucceed from './company/pineSucceed.png';
+import pineSucceed from './company/pinesucceed.png';
 import dgn from './company/dgn.png';
 import key from './company/key.png';
 import magellan from './company/magellan.png';
