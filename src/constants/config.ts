@@ -15,6 +15,8 @@ type TConfig = {
     p: string[];
   };
   contact: {
+    p: string;
+    h2: string;
     form: {
       name: {
         span: string;
@@ -29,24 +31,28 @@ type TConfig = {
         placeholder: string;
       };
     };
-  } & TSection;
+  };
   sections: {
     about: Required<TSection>;
     experience: TSection;
     feedbacks: TSection;
     works: Required<TSection>;
+    tech: TSection;
   };
 };
 
 export const config: TConfig = {
   html: {
-    title: 'Full Stack Developer',
-    fullName: 'Robin Caballero',
-    email: 'robinc0130@gmail.com',
+    title: 'Senior Software Engineer',
+    fullName: 'Jeremy R. Carter',
+    email: 'carterjeremyryan@gmail.com',
   },
   hero: {
-    name: 'Robin Caballero',
-    p: ['Innovative Full Stack Developer', 'over 6 years of experience'],
+    name: 'Jeremy R. Carter',
+    p: [
+      'Passionate Software Engineer with 9+ years of experience',
+      'Focusing on building optimized and scalable applications',
+    ],
   },
   contact: {
     p: 'Get in touch',
@@ -67,10 +73,7 @@ export const config: TConfig = {
     about: {
       p: 'Introduction',
       h2: 'Overview.',
-      content: ` I am proficient in JavaScript frameworks including React, Next, Vue and Node.JS.  My expertise extends to backend technologies, reflecting my
-      commitment to staying at the forefront of innovative web application development. I approach my work
-      with confidence and passion, always eager to take on new challenges and continuously expand my
-      knowledge. Let's work together to bring your ideas to life!`,
+      content: `I am a passionate software engineer with 9+ years of experience, focusing on building optimized and scalable applications. I am a quick learner and always eager to take on new challenges and continuously expand my knowledge. Collaborating with teams to deliver high-quality software solutions is my passion.`,
     },
     experience: {
       p: 'What I have done so far',
@@ -87,6 +90,10 @@ export const config: TConfig = {
     real-world examples of my work. It reflects my
     ability to solve complex problems, work with different technologies,
     and manage projects effectively.`,
+    },
+    tech: {
+      p: 'What I use',
+      h2: 'Technologies.',
     },
   },
 };

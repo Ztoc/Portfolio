@@ -7,18 +7,18 @@ import github from './github.png';
 import menu from './menu.svg';
 import close from './close.svg';
 
-import css from './tech/css.png';
-import docker from './tech/docker.png';
-import figma from './tech/figma.png';
-import git from './tech/git.png';
-import html from './tech/html.png';
-import javascript from './tech/javascript.png';
-import mongodb from './tech/mongodb.png';
-import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
+import css from './tech/css.svg';
+import docker from './tech/docker.svg';
+import figma from './tech/figma.svg';
+import git from './tech/git.svg';
+import html from './tech/html.svg';
+import javascript from './tech/javascript.svg';
+import mongodb from './tech/mongodb.svg';
+import nodejs from './tech/nodejs.svg';
+import reactjs from './tech/reactjs.svg';
+import redux from './tech/redux.svg';
+import tailwind from './tech/tailwind.svg';
+import typescript from './tech/typescript.svg';
 import python from './tech/python.svg';
 import bootstrap from './tech/bootstrap.svg';
 import firebase from './tech/firebase.svg';
@@ -34,10 +34,17 @@ import php from './tech/php.svg';
 import postgresql from './tech/postgresql.svg';
 import prisma from './tech/prisma.svg';
 import spring from './tech/spring.svg';
+import kubernetes from './tech/kubernetes.svg';
+import aws from './tech/aws.svg';
+import datadog from './tech/datadog.svg';
 
 import arcanys from './company/arcanys.png';
-import dgn from './company/dgn.jpg';
+import das from './company/das.png';
+import pineSucceed from './company/pineSucceed.png';
+import dgn from './company/dgn.png';
+import key from './company/key.png';
 import magellan from './company/magellan.png';
+import shuttle from './shuttle.png';
 
 import carrent from './carrent.png';
 import jobit from './jobit.png';
@@ -69,7 +76,10 @@ export {
   tailwind,
   typescript,
   arcanys,
+  key,
+  das,
   dgn,
+  pineSucceed,
   magellan,
   carrent,
   jobit,
@@ -89,8 +99,12 @@ export {
   postgresql,
   prisma,
   spring,
+  kubernetes,
+  aws,
   eshop,
   digitalWallet,
+  shuttle,
   adalab,
   gtx,
+  datadog,
 };
